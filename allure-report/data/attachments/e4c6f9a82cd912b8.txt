@@ -1,0 +1,1 @@
+INFO     root:test_qiyong.py:82 batchReleaseJobs_05必填（projectId）为空，启用职位失败>>>项目未同步到RPO系统,请检查项目状态是否为启动状态

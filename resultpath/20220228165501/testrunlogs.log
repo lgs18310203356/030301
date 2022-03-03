@@ -1,0 +1,8 @@
+2022-02-28 16:55:01,015-root-INFO-----测试开始----
+2022-02-28 16:55:05,236-root-INFO-batchReleaseJobs_01必填（rpoRootOrgId）为空，启用职位失败>>>RPO企业ROOT_ORG_ID不可为空
+2022-02-28 16:55:07,237-root-INFO-batchReleaseJobs_02必填（jobId）为空，启用职位失败>>>成功
+2022-02-28 16:55:09,054-root-INFO-batchReleaseJobs_03必填（rpoJobId）为空，启用职位失败>>>职位ID不可为空
+2022-02-28 16:55:10,817-root-INFO-batchReleaseJobs_04必填（jobNumber）为空，启用职位失败>>>成功
+2022-02-28 16:55:12,627-root-INFO-batchReleaseJobs_05必填（projectId）为空，启用职位失败>>>项目未同步到RPO系统,请检查项目状态是否为启动状态
+2022-02-28 16:55:14,028-root-INFO-batchReleaseJobs_06必填（rpoStaffId）为空，启用职位失败>>>登录顾问B端账号ID不可为空
+2022-02-28 16:55:15,782-root-INFO-batchReleaseJobs_07必填填写正确，启用职位成功>>>成功

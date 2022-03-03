@@ -1,0 +1,81 @@
+{
+  "uid" : "2ad04e72f9e1727",
+  "name" : "test_zresponse[zanTing3-qiYong0]",
+  "fullName" : "testcase.test_job.test_zanting.Test_Zanting#test_zresponse",
+  "historyId" : "735fb36caff5ad844ffa35f9d53971de",
+  "time" : {
+    "start" : 1646038516466,
+    "stop" : 1646038516466,
+    "duration" : 0
+  },
+  "description" : "测试暂停职位接口响应（刘国颂）",
+  "descriptionHtml" : "<p>测试暂停职位接口响应（刘国颂）</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 只是测试一下",
+  "statusTrace" : "('D:\\\\测试资料\\\\pycharm-project\\\\myproject\\\\guosong220124\\\\testcase\\\\test_job\\\\test_zanting.py', 64, 'Skipped: 只是测试一下')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试职位的接口"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "暂停职位接口（刘国颂）"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('只是测试一下')"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('qiYong', 'zanTing')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.test_job"
+  }, {
+    "name" : "suite",
+    "value" : "test_zanting"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Zanting"
+  }, {
+    "name" : "host",
+    "value" : "BJPDZL66688"
+  }, {
+    "name" : "thread",
+    "value" : "284448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_job.test_zanting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qiYong",
+    "value" : "{'caseId': 'batchReleaseJobs_07', 'caseName': '必填填写正确，启用职位成功', 'preCondition': '1登录获取cookie 2 暂停职位', 'apiName': '启用职位', 'apiUrl': '/rpo/job/batchReleaseJobs', 'parameter': '{\"rpoRootOrgId\": 131835514,\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"CCL1318355140J40200925703\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'Y'}"
+  }, {
+    "name" : "zanTing",
+    "value" : "{'caseId': 'batchSuspendJobs_04', 'caseName': '必填（jobNumber）为空，暂停职位失败', 'preCondition': '1登录获取cookie 2 启用职位', 'apiName': '暂停职位', 'apiUrl': '/rpo/job/batchSuspendJobs', 'parameter': '{\"rpoRootOrgId\": 131835514,\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'N'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip('只是测试一下')", "@pytest.mark.usefixtures('qiYong', 'zanTing')" ]
+  },
+  "source" : "2ad04e72f9e1727.json",
+  "parameterValues" : [ "{'caseId': 'batchReleaseJobs_07', 'caseName': '必填填写正确，启用职位成功', 'preCondition': '1登录获取cookie 2 暂停职位', 'apiName': '启用职位', 'apiUrl': '/rpo/job/batchReleaseJobs', 'parameter': '{\"rpoRootOrgId\": 131835514,\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"CCL1318355140J40200925703\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'Y'}", "{'caseId': 'batchSuspendJobs_04', 'caseName': '必填（jobNumber）为空，暂停职位失败', 'preCondition': '1登录获取cookie 2 启用职位', 'apiName': '暂停职位', 'apiUrl': '/rpo/job/batchSuspendJobs', 'parameter': '{\"rpoRootOrgId\": 131835514,\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'N'}" ]
+}

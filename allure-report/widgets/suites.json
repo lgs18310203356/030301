@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "6ec1ddba7a37c4a40c6aae0c31cd7564",
+    "name" : "testcase.test_job",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 20,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 27
+    }
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "5843beea21b92f3",
+  "name" : "test_saveDraftJob[saveDraftJob0]",
+  "fullName" : "testcase.test_job.test_saveDraftJob.Test_saveDraftJob#test_saveDraftJob",
+  "historyId" : "187106b1d25d34ae044b4b04c44e9b58",
+  "time" : {
+    "start" : 1646038516422,
+    "stop" : 1646038516422,
+    "duration" : 0
+  },
+  "description" : "测试保存职位草稿职位接口响应（刘国颂）",
+  "descriptionHtml" : "<p>测试保存职位草稿职位接口响应（刘国颂）</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\测试资料\\\\pycharm-project\\\\myproject\\\\guosong220124\\\\testcase\\\\test_job\\\\test_saveDraftJob.py', 53, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "保存职位草稿接口（刘国颂）"
+  }, {
+    "name" : "feature",
+    "value" : "测试职位的接口"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('saveDraftJob')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.test_job"
+  }, {
+    "name" : "suite",
+    "value" : "test_saveDraftJob"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_saveDraftJob"
+  }, {
+    "name" : "host",
+    "value" : "BJPDZL66688"
+  }, {
+    "name" : "thread",
+    "value" : "284448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_job.test_saveDraftJob"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "saveDraftJob",
+    "value" : "{'caseId': 'saveDraftJob_01', 'caseName': '全部必填填写正确，保存职位草稿成功', 'preCondition': '1登录获取cookie ', 'apiName': '保存职位草稿', 'apiUrl': '/rpo/job/saveDraftJob', 'parameter': '{\"showName\":\"test\",\"personalityPaperId\":123,\"careerPaperId\":234,\"projectId\":38378,\"rootOrgId\":128450421,\"staffId\":1084648967}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'Y'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip", "@pytest.mark.usefixtures('saveDraftJob')" ]
+  },
+  "source" : "5843beea21b92f3.json",
+  "parameterValues" : [ "{'caseId': 'saveDraftJob_01', 'caseName': '全部必填填写正确，保存职位草稿成功', 'preCondition': '1登录获取cookie ', 'apiName': '保存职位草稿', 'apiUrl': '/rpo/job/saveDraftJob', 'parameter': '{\"showName\":\"test\",\"personalityPaperId\":123,\"careerPaperId\":234,\"projectId\":38378,\"rootOrgId\":128450421,\"staffId\":1084648967}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'Y'}" ]
+}

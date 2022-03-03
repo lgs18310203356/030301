@@ -1,0 +1,126 @@
+{
+  "uid" : "951a5c693bde6a0a",
+  "name" : "test_qresponse[qiYong0-zanTing0]",
+  "fullName" : "testcase.test_job.test_qiyong.Test_Qiyong#test_qresponse",
+  "historyId" : "04f97838f645e1bdba721e6686eec389",
+  "time" : {
+    "start" : 1646038505236,
+    "stop" : 1646038505560,
+    "duration" : 324
+  },
+  "description" : "测试启用职位接口响应（刘国颂）",
+  "descriptionHtml" : "<p>测试启用职位接口响应（刘国颂）</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "qiYong",
+    "time" : {
+      "start" : 1646038504769,
+      "stop" : 1646038505235,
+      "duration" : 466
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "zanTing",
+    "time" : {
+      "start" : 1646038503943,
+      "stop" : 1646038504769,
+      "duration" : 826
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "测试启用职位接口响应（刘国颂）",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c1abb185a1b29a3",
+      "name" : "f0d0c74b-faf4-4fa1-b56e-5c281b612069-attachment.attach",
+      "source" : "8c1abb185a1b29a3.attach",
+      "type" : "text/plain",
+      "size" : 105
+    }, {
+      "uid" : "c4c27f6bccc1fd13",
+      "name" : "log",
+      "source" : "c4c27f6bccc1fd13.txt",
+      "type" : "text/plain",
+      "size" : 137
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试职位的接口"
+  }, {
+    "name" : "story",
+    "value" : "启用职位接口（刘国颂）"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.test_job"
+  }, {
+    "name" : "suite",
+    "value" : "test_qiyong"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Qiyong"
+  }, {
+    "name" : "host",
+    "value" : "BJPDZL66688"
+  }, {
+    "name" : "thread",
+    "value" : "284448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_job.test_qiyong"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qiYong",
+    "value" : "{'caseId': 'batchReleaseJobs_01', 'caseName': '必填（rpoRootOrgId）为空，启用职位失败', 'preCondition': '1登录获取cookie 2 暂停职位', 'apiName': '启用职位', 'apiUrl': '/rpo/job/batchReleaseJobs', 'parameter': '{\"rpoRootOrgId\": \"\",\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"CCL1318355140J40200925703\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '400', 'expmessage': 'RPO企业ROOT_ORG_ID不可为空', 'isRelied': 'N'}"
+  }, {
+    "name" : "zanTing",
+    "value" : "{'caseId': 'batchSuspendJobs_07', 'caseName': '必填填写正确，暂停职位成功', 'preCondition': '1登录获取cookie 2 启用职位', 'apiName': '暂停职位', 'apiUrl': '/rpo/job/batchSuspendJobs', 'parameter': '{\"rpoRootOrgId\": 131835514,\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"CCL1318355140J40200925703\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'Y'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "951a5c693bde6a0a.json",
+  "parameterValues" : [ "{'caseId': 'batchReleaseJobs_01', 'caseName': '必填（rpoRootOrgId）为空，启用职位失败', 'preCondition': '1登录获取cookie 2 暂停职位', 'apiName': '启用职位', 'apiUrl': '/rpo/job/batchReleaseJobs', 'parameter': '{\"rpoRootOrgId\": \"\",\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"CCL1318355140J40200925703\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '400', 'expmessage': 'RPO企业ROOT_ORG_ID不可为空', 'isRelied': 'N'}", "{'caseId': 'batchSuspendJobs_07', 'caseName': '必填填写正确，暂停职位成功', 'preCondition': '1登录获取cookie 2 启用职位', 'apiName': '暂停职位', 'apiUrl': '/rpo/job/batchSuspendJobs', 'parameter': '{\"rpoRootOrgId\": 131835514,\"jobId\": 851497203,\"rpoJobId\": 2359,\"jobNumber\": \"CCL1318355140J40200925703\",\"projectId\": 38378,\"rpoStaffId\": 1099806121}', 'expcode': '200', 'expmessage': '成功', 'isRelied': 'Y'}" ]
+}

@@ -1,0 +1,1 @@
+INFO     root:test_qiyong.py:82 batchReleaseJobs_04必填（jobNumber）为空，启用职位失败>>>成功

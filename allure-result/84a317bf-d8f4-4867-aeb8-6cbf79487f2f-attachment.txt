@@ -1,0 +1,1 @@
+INFO     root:test_qiyong.py:82 batchReleaseJobs_02必填（jobId）为空，启用职位失败>>>成功
